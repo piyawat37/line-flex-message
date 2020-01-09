@@ -1,7 +1,7 @@
 {
-  "name": "line-flex-message",
-  "version": "1.0.0",
-  "description": "Line Flex Message",
+  "name": "line-flex-message-model",
+  "version": "1.0.0-dev",
+  "description": "Line Flex Message Model",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {

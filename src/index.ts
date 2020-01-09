@@ -1,2 +1,2 @@
-export const Greeter = (name: string) => `Hello ${name}`;
-export {FlexMessage} from './flex'
+import {Flex} from "./flex";
+export default Flex
