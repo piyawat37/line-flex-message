@@ -6,17 +6,17 @@ import {Text} from "./Text";
 export class Box {
     public type: string
     public layout: blockLayout
-    public spacer: sizeOptions
+    public spacing: sizeOptions
     public contents: Array<Text | Box | Button | Image>
 
     constructor(
         layout?: blockLayout,
-        spacer?: sizeOptions,
+        spacing?: sizeOptions,
         contents?: Array<Text | Box | Button | Image>
     ) {
         this.type = "box"
         this.layout = layout || "baseline"
-        this.spacer = spacer || "md"
+        this.spacing = spacing || "md"
         this.contents = contents || []
     }
 }
