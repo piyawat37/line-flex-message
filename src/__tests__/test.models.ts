@@ -14,12 +14,12 @@ test('Flex Message is Correct.', () => {
 })
 
 test('Container Model Is Correct.', () => {
-    const container = new Container()
+    const container = new Container("bubble", "kilo", "ltr", new Body(), new Footer())
     expect(container).toBeInstanceOf(Container)
     expect(container.body).toBeInstanceOf(Body)
     expect(container.footer).toBeInstanceOf(Footer)
     expect(container.type).toBe(containerTypeEnum.bubble)
-    expect(container.size).toBe(containerSizeEnum.mega)
+    expect(container.size).toBe(containerSizeEnum.kilo)
     expect(container.direction).toBe(containerDirection.ltr)
 })
 
